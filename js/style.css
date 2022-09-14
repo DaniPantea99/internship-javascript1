@@ -1,0 +1,25 @@
+.change {
+    font-size: 20px;
+    color:#f52626;
+    /* transform: translate(100px); */
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+}
+
+.change::before {
+    content: '';
+    color: blue;
+    font-size: 1.2em;;
+    background-color:bisque;
+    letter-spacing: normal;
+    /* transition: all 0.5s ease; */
+}
+
+#change:hover {
+    background-color: #f8cfcf;
+    border: 1px solid #707070;
+}
+
+.item {
+    transition: all 0.5s ease;
+}
